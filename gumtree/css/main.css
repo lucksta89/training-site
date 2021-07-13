@@ -1,0 +1,231 @@
+/* html //////////////////////////////////////////*/
+html{
+    text-align: center;
+}
+/* html //////////////////////////////////////////*/
+
+
+
+
+
+
+/* navbar //////////////////////////////////////////*/
+.navbar li{
+    display: inline;
+}
+.navbar a{   
+    text-decoration: none;
+    color:white;
+}
+.navbar a:hover{
+    color:grey;
+    transition:1s;
+}
+.navbar{
+    word-spacing: 20px;
+    font-size: 1em;
+    height:50px;
+}
+/* navbar //////////////////////////////////////////*/
+
+
+
+
+
+
+
+/* header //////////////////////////////////////////*/
+#training-pic{
+    width:100%;
+    height:auto;
+}
+.card-title{
+    font-size: 5em;
+}
+.card-text{
+    font-weight: 500;
+    
+}
+
+.headerbox3 h6{
+    font-size: 2em;
+}
+.headerbox2 h6{
+    font-size: 2em;
+}
+.headerbox2{
+    margin-top: 100px;
+    font-size: 1em;
+    font-weight:700;
+    border: black 1px solid;
+    background-color: rgba(211, 211, 211, 0.288);
+}
+.headerbox3{
+    margin-top: 100px;
+    height: 200px;
+    font-weight: 700;
+    border: black 1px solid;
+    background-color: rgba(211, 211, 211, 0.288);
+}
+
+/* header //////////////////////////////////////////*/
+
+
+
+
+
+
+/* main //////////////////////////////////////////*/
+#article_1 .card{
+    width:50%;
+    margin:5%;
+    margin-top: 10%;
+}
+svg{
+    margin-top:50%;
+}
+#video{
+float:left;
+margin:5%;
+margin-top: -1%;
+margin-left: 5%;
+}
+
+.about{
+    position: relative;
+    top:-20px;
+}
+/* main //////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer //////////////////////////////////////////*/
+address{
+    float:left;
+    font-size: 1em;
+    font-weight: 600;
+    width:100%;
+}
+.mapouter{
+    position: relative;
+    margin-bottom: 50px;
+    width:100%;
+}
+.btm-footer{
+    text-align: left;
+    word-spacing: 20px;
+    width:90%;
+    margin:5%;
+    font-size: 1em;
+
+}
+
+
+/* footer //////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive //////////////////////////////////////////*/
+/* responsive //////////////////////////////////////////*/
+@media screen and (max-width: 600px) {
+
+    #training-pic{
+    width:100%;
+    height:auto;
+}
+.card-title{
+    margin-top: -1%;
+    font-size: 1em;
+    
+}
+.card-text{
+    font-weight: 500;
+    font-size: 0.6em;
+
+}
+
+.headerbox2{
+    height:130px;
+    margin-top: 2%;
+    font-weight:700;
+    border: black 1px solid;
+    background-color: rgba(211, 211, 211, 0.288);
+}
+.headerbox3{
+    height:130px;
+    margin-top: 2%;
+    font-weight: 700;
+    border: black 1px solid;
+    background-color: rgba(211, 211, 211, 0.288);
+}
+
+
+#article_1 .card{
+    padding-top:-50px;
+    font-size: 1.2em;
+    margin:25%;
+    margin-top: 80%;
+    border:none;
+}
+svg{
+    margin:50px;
+}
+#video{
+    width:100%;
+    margin: 0;
+    margin-top: 120%;
+    margin-bottom: -150px;
+}
+
+.about{
+    position: absolute;
+    top:-20px;
+}
+
+address{
+    float:left;
+    font-size: 0.5em;
+    font-weight: 600;
+    margin-top: 200px;
+}
+#contact iframe{
+    width:100%;
+
+}
+
+    
+
+
+
+
+
+
+
+}
