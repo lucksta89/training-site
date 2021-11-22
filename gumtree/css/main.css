@@ -156,6 +156,12 @@ address{
 /* responsive //////////////////////////////////////////*/
 @media screen and (max-width: 600px) {
 
+    .card-img{
+        height:280px;
+        margin-bottom: 5%;
+    }
+
+
     #training-pic{
     width:100%;
     height:auto;
